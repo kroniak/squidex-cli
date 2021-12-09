@@ -20,7 +20,7 @@ deploy_staging:
 
 ## using from docker
 
-`docker run -it --rm kroniak/squidex-cli --help`
+`docker run -it --rm kroniak/squidex-cli sq --help`
 
 ## supported tags and respective Dockerfile links
 

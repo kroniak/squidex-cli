@@ -7,5 +7,4 @@ RUN apt-get update \
   && rm -rf /var/lib/apt/lists/*
 COPY ./lib/ubuntu-x64 .
 ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=1
-ENTRYPOINT [ "/app/sq" ]
-CMD [ "--help" ]
+RUN ln -s /app/sq /usr/bin/sq
