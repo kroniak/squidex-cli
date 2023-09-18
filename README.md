@@ -24,4 +24,5 @@ deploy_staging:
 
 ## supported tags and respective Dockerfile links
 
-- 7.25, latest [7.25/Dockerfile](src/7.25/ubuntu20.04/Dockerfile)
+- 11.2, latest [11.2/Dockerfile](src/11.2/ubuntu20.04/Dockerfile)
+- 7.25 [7.25/Dockerfile](src/7.25/ubuntu20.04/Dockerfile)

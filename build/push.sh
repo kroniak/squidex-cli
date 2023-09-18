@@ -10,5 +10,5 @@ SCRIPT_ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 "$SCRIPT_ROOT"/build.sh
 
-docker push kroniak/squidex-cli:7.25
+docker push kroniak/squidex-cli:11.2
 docker push kroniak/squidex-cli:latest
